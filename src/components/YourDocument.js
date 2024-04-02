@@ -31,7 +31,7 @@ export default function YourDocument() {
   }, [client]);
 
   return (
-   <div style={{ display:"flex", gap:"8px", marginRight:"16px"}}>
+   <div style={{ display:"flex", gap:"8px", marginRight:"16px", alignItems:"center"}}>
      <VeltPresence self={true} flockMode={true}/>
      <VeltHuddleTool/>
      <VeltCommentTool/>
